@@ -1,0 +1,151 @@
+body {
+    background: url("media/bgdragon.jpg");
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.navigation {
+    background: black;
+    color: orange;
+}
+
+.navbar-inverse .navbar-brand {
+    color: orange;
+}
+
+.nav.navbar-nav li a {
+    color: orange;
+}
+
+.navbar {
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+}
+
+.navbar-nav > li > .dropdown-menu { 
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a, .navbar-inverse .navbar-nav .open .dropdown-menu { /*Change color of dropdown box */
+    background-color: black;;
+    color: orange;
+  }
+
+  .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus { /* Change focus color of navbar links */
+    background-color: black;
+    color: orange;
+}
+
+.jumbotron {
+    background: rgba(0,0,0,0);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    padding-top: 25%;
+    font-family: 'MedievalSharp', cursive;
+}
+hr {
+    width: 50%;
+}
+
+.lastsess {
+    background: #efe5d5;
+    color: black;
+    font-family: 'MedievalSharp', cursive;
+    box-shadow: 2px 2px 8px black;
+    border: 2px solid black;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.lastsess h1 {
+    font-size: 60px;
+    font-family: 'MedievalSharp', cursive;
+    color: #D4AF37;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+.lastsess hr {
+    border: 1px solid black;
+    width: 95%;
+}
+
+.lastsess p {
+    font-size: 30px;
+}
+
+/* Character Pages */
+
+.character {
+    background: #efe5d5;
+    color: black;
+    font-family: 'MedievalSharp', cursive;
+    box-shadow: 2px 2px 8px black;
+    border: 2px solid black;
+    margin-bottom: 10%;
+}
+
+.character h1 {
+    color: #D4AF37;
+    text-shadow: 2px 2px 3px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.col-lg-6 .charImage {
+    width: 80%;
+    margin-bottom: 5%;
+    border: 5px solid #D4AF37;
+    box-shadow: 2px 2px 3px black;
+}
+
+.col-md-6 .charImage {
+    width: 80%;
+}
+
+.character hr {
+    border: 1px solid black;
+    width: 90%;
+}
+
+.charInfo p {
+    font-size: 20px;
+}
+
+/* Map Page */
+
+.mapContainer {
+    margin-bottom: 20px;
+}
+
+.map {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 7em;
+    box-shadow: 2px 2px 8px black;
+    border: 2px solid black;
+}
+
+.contDiv {
+    background: #efe5d5;
+    font-family: 'MedievalSharp', cursive;
+    color: black;
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.contDiv h1 {
+    color: #D4AF37;
+    text-shadow: 2px 2px 3px black;
+    font-size: 60px;
+    text-align: center;
+}
+
+.contDiv p {
+    font-size: 30px;
+}
