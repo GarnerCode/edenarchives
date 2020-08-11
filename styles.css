@@ -149,3 +149,50 @@ hr {
 .contDiv p {
     font-size: 30px;
 }
+
+/* History Page */
+.historyPanel {
+    background: #efe5d5;
+    color: black;
+    font-family: 'MedievalSharp', cursive;
+    box-shadow: 2px 2px 8px black;
+    border: 2px solid black;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+/* Small devices (phones, 320px and up) */
+@media (min-width: 320px) {
+    .lastsess p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    div.col-lg-12.lastsess {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    div.col-lg-12.contDiv p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    img.charImage {
+        margin-left: 30px;
+    }
+
+    img.map {
+        margin-left: 30px;
+    }
+}
+
+/* Small-Medium Devices (large phones, 575px and up) */
+@media (min-width: 575px) {
+    ...
+}
+
+/* Medium devices (tablets, 760px and up) */
+@media (min-width: 760px) {
+    ...
+}
