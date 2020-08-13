@@ -6,7 +6,7 @@ body {
 .center {
     text-align: center;
 }
-
+/* Site Navigation */
 .navigation {
     background: black;
     color: orange;
@@ -38,7 +38,7 @@ body {
     background-color: black;
     color: orange;
 }
-
+/* Content */
 .jumbotron {
     background: rgba(0,0,0,0);
     text-align: center;
@@ -194,5 +194,7 @@ hr {
 
 /* Medium devices (tablets, 760px and up) */
 @media (min-width: 760px) {
-    ...
+    img.map {
+        margin-left: 110px;
+    }
 }
