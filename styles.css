@@ -21,7 +21,7 @@ hr {
     width: 50%;
 }
 
-.lastsess {
+.home-panel {
     background: #efe5d5;
     color: black;
     font-family: 'MedievalSharp', cursive;
@@ -31,7 +31,7 @@ hr {
     margin-bottom: 10px;
 }
 
-.lastsess h1 {
+.home-panel h1 {
     font-size: 60px;
     font-family: 'MedievalSharp', cursive;
     color: #D4AF37;
@@ -39,12 +39,12 @@ hr {
     text-shadow: 2px 2px 3px black;
 }
 
-.lastsess hr {
+.home-panel hr {
     border: 1px solid black;
     width: 95%;
 }
 
-.lastsess p {
+.home-panel p {
     font-size: 30px;
 }
 
@@ -133,12 +133,12 @@ hr {
 
 /* Small devices (phones, 320px and up) */
 @media (min-width: 320px) {
-    .lastsess p {
+    .home-panel p {
         font-size: 20px;
         text-align: justify;
     }
 
-    div.col-lg-12.lastsess {
+    div.col-lg-12.home-panel {
         margin-left: 10px;
         margin-right: 10px;
     }
